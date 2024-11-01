@@ -1,3 +1,3 @@
-# Headline
+# What is your data telling you?
 
-> An awesome project.
+> Helping Businesses understand what their data is telling them?
