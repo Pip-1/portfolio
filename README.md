@@ -1,3 +1,3 @@
-# What is your data telling you?
+# let's find out what your data is telling you!
 
-> Helping Businesses understand what their data is telling them?
+> 
