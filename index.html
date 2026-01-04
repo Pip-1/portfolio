@@ -35,14 +35,14 @@
     <header class="max-w-7xl mx-auto px-6 py-12 md:py-20 grid-bg">
         <div class="max-w-4xl">
             <h1 class="text-5xl md:text-7xl font-black leading-tight mb-6 text-slate-950">
-                Vertrauen. <br><span class="text-blue-600">In Infrastruktur.</span><br><span class="text-blue-600">Und Daten.</span>
+                Vertrauen. <br><span class="text-blue-600">In Infrastruktur</span><br><span class="text-blue-600">und Daten.</span>
             </h1>
             <p class="text-lg md:text-2xl text-slate-700 leading-relaxed max-w-2xl mb-8">
                 Pragmatische Datenplattformen für den Mittelstand. Ich baue schlanke Datenplattformen, die mit Ihren Anforderungen wachsen. Ohne unnötige Komplexität oder Vendor Lock-in.
             </p>
             <div class="flex flex-wrap gap-4 items-center">
                 <a href="#kontakt" class="bg-blue-600 text-white px-6 py-3 rounded font-bold hover:bg-slate-900 transition duration-300">Anfrage starten</a>
-                <span class="mono text-xs text-slate-400">// Fokus: STACKIT & GCP</span>
+                <span class="mono text-xs text-slate-400">// Fokus: INGESTION / ORCHESTRATION / VISUALISATION</span>
             </div>
         </div>
     </header>
@@ -64,6 +64,59 @@
             </div>
         </div>
     </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-12 bg-blue-50 rounded-3xl my-8">
+    <div class="max-w-3xl">
+        <h2 class="text-2xl font-black mb-4 italic text-blue-900">Daten-Souveränität als Wettbewerbsvorteil.</h2>
+        <p class="text-slate-700 leading-relaxed mb-6">
+            Besonders für den deutschen Mittelstand ist die Wahl der Cloud-Infrastruktur entscheidend. Ich helfe Ihnen, die Vorteile moderner Analytics zu nutzen, ohne die Kontrolle über Ihre Daten zu verlieren – bevorzugt auf europäischer Infrastruktur wie <strong>STACKIT</strong>.
+        </p>
+        <ul class="grid md:grid-cols-2 gap-4 text-sm font-medium text-blue-800 mono">
+            <li>+ DSGVO-Konformität by Design</li>
+            <li>+ Keine US-Cloud Abhängigkeit</li>
+            <li>+ Standorte in Deutschland</li>
+            <li>+ Maximale Performance</li>
+        </ul>
+    </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-12 border-t border-slate-100">
+    <h2 class="mono text-blue-600 text-xs font-bold mb-8 uppercase tracking-widest">// Häufige Fragen</h2>
+    <div class="grid md:grid-cols-2 gap-x-16 gap-y-8">
+        <div>
+            <h3 class="font-bold mb-2">Ab welcher Datengröße lohnt sich das?</h3>
+            <p class="text-sm text-slate-600">Es geht nicht um die Menge, sondern um die Komplexität und den Wert der Entscheidungen. Auch kleine Datensätze profitieren von einer sauberen Struktur.</p>
+        </div>
+        <div>
+            <h3 class="font-bold mb-2">Wie lange dauert ein typisches Projekt?</h3>
+            <p class="text-sm text-slate-600">Erste Ergebnisse (MVPs) liefern wir oft innerhalb von 2-4 Wochen. Langfristige Strategien entwickeln sich modular.</p>
+        </div>
+        <div>
+            <h3 class="font-bold mb-2">Brauchen wir ein eigenes Data-Team?</h3>
+            <p class="text-sm text-slate-600">Nein. Ich baue die Systeme so auf, dass sie wartungsarm sind und auch von IT-Generalisten oder Analysten bedient werden können.</p>
+        </div>
+        <div>
+            <h3 class="font-bold mb-2">Unterstützen Sie bei der Tool-Auswahl?</h3>
+            <p class="text-sm text-slate-600">Ja, herstellerunabhängig. Wir wählen das Tool, das zu Ihrem Budget und Ihren Anforderungen passt (Open Source vs. Managed).</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-12 border-t border-slate-100">
+    <h2 class="mono text-blue-600 text-xs font-bold mb-10 uppercase tracking-widest">// Die System-Architektur</h2>
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4 mono text-[10px] text-center">
+        <div class="w-full p-4 border border-dashed border-slate-300 rounded text-slate-400 font-bold uppercase">Datenquellen<br>(ERP, CRM, API)</div>
+        <div class="hidden md:block text-slate-300">→</div>
+        <div class="w-full p-6 bg-slate-900 text-blue-400 rounded shadow-xl font-bold uppercase">
+            Souveränes Warehouse<br>
+            <span class="text-white text-[12px] italic">STACKIT / BigQuery</span>
+        </div>
+        <div class="hidden md:block text-slate-300">→</div>
+        <div class="w-full p-4 border border-blue-200 bg-blue-50 rounded text-blue-600 font-bold uppercase">Business Intelligence<br>(Metriken & Reports)</div>
+    </div>
+    </section>
+
+
 
     <section id="expertise" class="bg-slate-950 text-white py-12">
         <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
@@ -118,6 +171,69 @@
                 <span class="text-[10px] mono bg-slate-100 px-2 py-1 rounded">STACKIT / TERRAFORM / S3 / PYTHON / SQL</span>
             </div>
         </div>
+    </section>
+
+    <section id="pakete" class="max-w-7xl mx-auto px-6 py-12 border-t border-slate-100">
+    <h2 class="mono text-blue-600 text-xs font-bold mb-8 uppercase tracking-widest">// Service-Pakete</h2>
+    
+    <div class="grid md:grid-cols-3 gap-8 mb-12">
+        <div class="p-6 bg-white border border-slate-200 rounded-xl hover:shadow-lg transition flex flex-col">
+            <h3 class="text-xl font-bold mb-2 italic">01. Status Quo Audit</h3>
+            <p class="text-sm text-slate-600 mb-6 flex-grow text-sm leading-relaxed">
+                Ehrliche Bestandsaufnahme Ihrer aktuellen Datenlandschaft. Wir identifizieren Flaschenhälse, Kostentreiber und Sicherheitsrisiken.
+            </p>
+            <ul class="text-[10px] mono text-slate-400 mb-6 space-y-1 uppercase">
+                <li>+ Infratruktur-Check</li>
+                <li>+ Kosten-Analyse</li>
+                <li>+ Gap-Analyse</li>
+            </ul>
+            <div class="text-blue-600 font-bold text-sm">Festpreis auf Anfrage</div>
+        </div>
+
+        <div class="p-6 bg-slate-950 text-white border border-slate-900 rounded-xl hover:shadow-xl transition flex flex-col">
+            <h3 class="text-xl font-bold mb-2 italic">02. Architektur-Design</h3>
+            <p class="text-sm text-slate-400 mb-6 flex-grow text-sm leading-relaxed">
+                Konzeption einer souveränen Datenplattform. Entweder als Blueprint für Ihr Team oder als Basis für meine Umsetzung.
+            </p>
+            <ul class="text-[10px] mono text-blue-400 mb-6 space-y-1 uppercase">
+                <li>+ Tool-Selection (Souverän)</li>
+                <li>+ Datenmodell-Entwurf</li>
+                <li>+ Roadmap zur Skalierung</li>
+            </ul>
+            <div class="text-white font-bold text-sm underline decoration-blue-500">Inkl. Umsetzungsplan</div>
+        </div>
+
+        <div class="p-6 bg-white border border-slate-200 rounded-xl hover:shadow-lg transition flex flex-col">
+            <h3 class="text-xl font-bold mb-2 italic">03. Full Implementation</h3>
+            <p class="text-sm text-slate-600 mb-6 flex-grow text-sm leading-relaxed">
+                End-to-End Begleitung. Von der ersten Zeile Code bis zum fertigen Dashboard. Fokus auf STACKIT oder GCP.
+            </p>
+            <ul class="text-[10px] mono text-slate-400 mb-6 space-y-1 uppercase">
+                <li>+ Setup Infrastruktur</li>
+                <li>+ Testing & Qualität</li>
+                <li>+ Team-Enablement</li>
+            </ul>
+            <div class="text-blue-600 font-bold text-sm">Projektbasiert</div>
+        </div>
+    </div>
+
+    <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100">
+        <h3 class="mono text-xs font-bold text-slate-400 mb-6 uppercase tracking-widest text-center">Spezifische Add-On Komponenten</h3>
+        <div class="grid md:grid-cols-3 gap-6 text-center">
+            <div class="space-y-2">
+                <div class="text-blue-600 font-bold text-lg italic">Ingestion Setup</div>
+                <p class="text-[11px] text-slate-500 uppercase tracking-tighter italic font-medium">Anbindung Ihrer Quellsysteme (ERP, CRM, APIs)</p>
+            </div>
+            <div class="space-y-2 border-y md:border-y-0 md:border-x border-slate-200 py-4 md:py-0">
+                <div class="text-blue-600 font-bold text-lg italic">Modeling Setup</div>
+                <p class="text-[11px] text-slate-500 uppercase tracking-tighter italic font-medium">Transformation & Business Logik (SQL/dbt)</p>
+            </div>
+            <div class="space-y-2">
+                <div class="text-blue-600 font-bold text-lg italic">Visualisierung</div>
+                <p class="text-[11px] text-slate-500 uppercase tracking-tighter italic font-medium">Strategische Dashboards & KPI-Reporting</p>
+            </div>
+        </div>
+    </div>
     </section>
 
     <footer id="kontakt" class="bg-slate-50 py-12 border-t border-slate-200">
